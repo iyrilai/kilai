@@ -1,10 +1,10 @@
 [package]
 name = "rust_git_core"
-version = "0.0.0"
-edition = "2025"
+version = "0.0.1"
+edition = "2024"
 
 [lib]
 crate-type = ["cdylib"]
 
 [dependencies]
-libgit2-sys = "0.14" 
+git2 = "0.20.2" 
